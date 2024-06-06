@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.main {
+    flex: 2; /* Ocupa dos tercios del contenedor */
+    margin-right: 20px; /* Margen a la derecha para separarlo del aside */
+}
+
+.aside {
+    flex: 1; /* Ocupa un tercio del contenedor */
+    display: flex;
+    flex-direction: column; /* Organiza las noticias en una columna */
+    height: 100%;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.media {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.text-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.h1-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.small-news {
+    margin-bottom: 20px; /* Espaciado entre cada noticia */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.media-aside {
+    max-width: 80%; /* Establecer un ancho máximo para las imágenes */
+    max-height: 50%;
+    height: auto; /* Ajustar la altura automáticamente */
+    border-radius: 10px; /* Mantener el redondeo de las esquinas */
+}
+.title4{
+    font-size: 20px;
+}
+.h4-container{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.linea{
+    width: 80%;
+    height: 1px;
+    background-color: #28a745;
+    margin: 0 auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.normal{
+    display: flex;
+    flex-direction: column;
+}
+
+.media-normal{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.text-container-normal {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #28a745;
+}
+.h1-container-normal {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.clicable:hover{
+    cursor: pointer;
+}

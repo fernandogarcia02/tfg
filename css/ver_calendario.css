@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    /*border: 1px solid black;*/
+    width: 33.33%; /* Asegurar que todas las columnas tengan el mismo ancho */
+    text-align: center; /* Centrar el texto horizontalmente */
+    vertical-align: middle; /* Centrar el texto verticalmente */
+    padding: 10px; /* Espacio interno de las celdas */
+}
+
+th, td, caption {
+    font-size: 16px; /* Tamaño de fuente uniforme */
+}
+
+caption {
+    caption-side: top; /* Asegurarse de que el caption esté en la parte superior */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto; /* Centrar la imagen */
+    object-fit: contain;
+}
