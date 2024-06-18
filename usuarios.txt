@@ -1,0 +1,6 @@
+Usuario administrador:
+Usuario: Samba Contraseña: elsamba
+
+Usuarios Normales: 
+Usuario: Didi Contraseña: eldidi02
+Usuario: ninja Contraseña: elninja02

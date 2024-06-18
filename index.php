@@ -1,5 +1,8 @@
 <?php
 session_start();
+if(!isset($_SESSION['username'])){
+    $_SESSION = array();
+}
 include "components/config/config.php";
 $portada = $noticias->traerPortada();
 
