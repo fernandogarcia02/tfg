@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 06-06-2024 a las 23:13:25
+-- Tiempo de generación: 19-06-2024 a las 13:02:26
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -291,34 +291,79 @@ CREATE TABLE `Jugadores` (
 --
 
 INSERT INTO `Jugadores` (`jugador_id`, `equipo_id`, `nombre`, `posicion`, `numero_camiseta`, `fecha_nacimiento`, `nacionalidad`, `altura`, `peso`, `historial`, `goles`, `asistencias`, `partidos_jugados`, `tarjetas_amarillas`, `tarjetas_rojas`, `imagen_url`, `descripcion`, `twitter_url`, `instagram_url`, `tiktok_url`) VALUES
-(1, 2, 'Tete Morente', 'ei', 11, '1996-12-03', 'España', 180.00, 76.00, NULL, 10, 1, 6, 3, 0, '663fb8f09488f-tete.webp', 'Comenzó la temporada 2014-15 jugando en el equipo juvenil del Atlético de Madrid, hasta que el interior zurdo el año siguiente daría el salto al Atlético de Madrid \"B\", realizando una buena temporada en Tercera División.\r\n\r\nLa temporada 2016-17 militó en el C. D. Atlético Baleares en Segunda B disputado 23 partidos en Segunda B, disputando el play-off de ascenso a la categoría de plata.\r\n\r\nEn julio de 2017 firmó por el Club Gimnàstic de Tarragona, siendo el primer fichaje para su debut en la temporada 2017-18 en la Segunda División, firmando un contrato por dos temporadas. En enero de 2019 fue cedido al Club Deportivo Lugo hasta el final de la temporada 2018-19.\r\n\r\nLa temporada 2019-20 la inició en el C. D. Lugo, pero en el mercado de invierno fichó por el Málaga C. F. hasta junio de 2021.\r\n\r\nEl 16 de septiembre de 2020 firmó por el Elche C. F. por cuatro temporadas tras abonar al Málaga C. F. su cláusula de rescisión.  Con el equipo ilicitano tuvo la oportunidad de debutar en Primera División.', NULL, NULL, NULL),
-(2, 16, 'Bernabé Barragán', 'por', 1, '1993-02-17', 'España', 189.00, 76.00, NULL, 3, 0, 4, 2, 0, '6652174898545-195404.png', 'Bernabé Barragán Maestre (Los Palacios y Villafranca, provincia de Sevilla, 18 de febrero de 1993), conocido en los medios deportivos como \"Bernabé\", es un futbolista español que juega de guardameta en el Albacete Balompié de la Segunda División de España.', NULL, NULL, NULL),
-(3, 16, 'Diego Altube', 'por', 13, '2000-02-21', 'España', 188.00, 87.00, NULL, 0, 3, 4, 0, 0, '665217b96e2a5-d7fc3fd1fa0821eb565d9164eebf422e.png', 'aaa', NULL, NULL, NULL),
-(5, 16, 'Jonathan Silva', 'li', 3, '1994-06-28', 'Argentina', 178.00, 72.00, NULL, 0, 0, 4, 0, 0, '6652193f83be7-189453-1445433144.webp', 'aaa', NULL, NULL, NULL),
-(6, 16, 'Julio Alonso', 'li', 17, '1998-12-13', 'España', 171.00, 62.00, NULL, 0, 0, 4, 0, 0, '66549db03a2e4-393036.jpg', 'aaa', NULL, NULL, NULL),
-(7, 16, 'Alvaro Rodríguez', 'ld', 23, '1994-07-22', 'España', 181.00, 77.00, NULL, 0, 0, 4, 0, 0, '66549e632d614-a3c600856b5879a86c3b6f72f34c7d2e.png', 'aaa', NULL, NULL, NULL),
-(8, 16, 'Mohamed Djetei', 'dfc', 2, '1994-08-18', 'Cameŕun', 185.00, 75.00, NULL, 0, 0, 4, 0, 0, '66549ef8795de-2f2357e85bea5a07b5a379ae774d620d.png', 'aaa', NULL, NULL, NULL),
-(9, 16, 'Kaiky', 'dfc', 15, '2004-01-11', 'Brasil', 181.00, 76.00, NULL, 0, 0, 4, 0, 0, '66549f546c711-5E6E0444-0F70-D4DF-7815BDB46230FC67.jpeg', 'aaa', NULL, NULL, NULL),
-(10, 16, 'Carlos Isaac', 'ld', 22, '1998-04-29', 'España', 184.00, 74.00, NULL, 0, 0, 4, 0, 0, '66549f9996408-437820.png', 'aaa', NULL, NULL, NULL),
-(11, 16, 'Cristian Glauder', 'dfc', 24, '1995-10-17', 'España', 183.00, 76.00, NULL, 0, 0, 4, 0, 0, '66549ff27d16b-p421012_t950_2023_1_002_000.jpg', 'aaa', NULL, NULL, NULL),
-(12, 16, 'Agus Medina', 'mc', 4, '1994-09-07', 'España', 176.00, 72.00, NULL, 0, 0, 4, 0, 0, NULL, 'aa', NULL, NULL, NULL),
-(13, 16, 'Rai Marchán', 'mc', 6, '1993-08-10', 'España', 181.00, 67.00, NULL, 0, 0, 3, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
-(14, 16, 'Manu Fuster', 'mco', 10, '1997-10-21', 'España', 169.00, 65.00, NULL, 0, 0, 3, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
-(15, 16, 'Lander Olaetxea', 'mc', 19, '1993-04-11', 'España', 179.00, 75.00, NULL, 0, 0, 3, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
-(16, 16, 'Juan Antonio Ros', 'mcd', 5, '1996-03-14', 'España', 188.00, 80.00, NULL, 0, 0, 3, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
-(17, 16, 'Riki', 'mc', 8, '1997-09-24', 'España', 175.00, 70.00, NULL, 0, 2, 2, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
-(18, 16, 'Pacheco', 'mc', 18, '2002-01-02', 'España', 184.00, 72.00, NULL, 0, 0, 2, 0, 0, NULL, 'aa', NULL, NULL, NULL),
-(19, 16, 'Samuel Shashoua', 'ei', 20, '1999-05-12', 'Inglaterra', 176.00, 70.00, NULL, 0, 0, 2, 0, 0, NULL, '00', NULL, NULL, NULL),
-(20, 16, 'Juanma García', 'ed', 7, '1993-02-19', 'España', 166.00, 64.00, NULL, 0, 0, 2, 0, 0, NULL, '0', NULL, NULL, NULL),
-(21, 16, 'Fidel', 'ei', 11, '1989-10-26', 'España', 180.00, 74.00, NULL, 4, 1, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
-(22, 16, 'Escriche', 'dc', 16, '1998-03-23', 'España', 178.00, 75.00, NULL, 0, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
-(23, 16, 'Higinio Marín', 'dc', 9, '1993-10-18', 'España', 184.00, 74.00, NULL, 0, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
-(24, 16, 'Pedro Benito', 'dc', 14, '2000-03-26', 'España', 182.00, 78.00, NULL, 1, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
-(25, 16, 'Alberto Quiles', 'dc', 21, '1995-04-26', 'España', 188.00, 70.00, NULL, 3, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
+(1, 2, 'Tete Morente', 'ei', 11, '1996-12-03', 'España', 180.00, 76.00, NULL, 0, 0, 0, 0, 0, '663fb8f09488f-tete.webp', 'Comenzó la temporada 2014-15 jugando en el equipo juvenil del Atlético de Madrid, hasta que el interior zurdo el año siguiente daría el salto al Atlético de Madrid \"B\", realizando una buena temporada en Tercera División.\r\n\r\nLa temporada 2016-17 militó en el C. D. Atlético Baleares en Segunda B disputado 23 partidos en Segunda B, disputando el play-off de ascenso a la categoría de plata.\r\n\r\nEn julio de 2017 firmó por el Club Gimnàstic de Tarragona, siendo el primer fichaje para su debut en la temporada 2017-18 en la Segunda División, firmando un contrato por dos temporadas. En enero de 2019 fue cedido al Club Deportivo Lugo hasta el final de la temporada 2018-19.\r\n\r\nLa temporada 2019-20 la inició en el C. D. Lugo, pero en el mercado de invierno fichó por el Málaga C. F. hasta junio de 2021.\r\n\r\nEl 16 de septiembre de 2020 firmó por el Elche C. F. por cuatro temporadas tras abonar al Málaga C. F. su cláusula de rescisión.  Con el equipo ilicitano tuvo la oportunidad de debutar en Primera División.', NULL, NULL, NULL),
+(2, 16, 'Bernabé Barragán', 'por', 1, '1993-02-17', 'España', 189.00, 76.00, NULL, 0, 0, 0, 0, 0, '6652174898545-195404.png', 'Bernabé Barragán Maestre (Los Palacios y Villafranca, provincia de Sevilla, 18 de febrero de 1993), conocido en los medios deportivos como \"Bernabé\", es un futbolista español que juega de guardameta en el Albacete Balompié de la Segunda División de España.', NULL, NULL, NULL),
+(3, 16, 'Diego Altube', 'por', 13, '2000-02-21', 'España', 188.00, 87.00, NULL, 0, 0, 0, 0, 0, '665217b96e2a5-d7fc3fd1fa0821eb565d9164eebf422e.png', 'aaa', NULL, NULL, NULL),
+(5, 16, 'Jonathan Silva', 'li', 3, '1994-06-28', 'Argentina', 178.00, 72.00, NULL, 0, 0, 0, 0, 0, '6652193f83be7-189453-1445433144.webp', 'aaa', NULL, NULL, NULL),
+(6, 16, 'Julio Alonso', 'li', 17, '1998-12-13', 'España', 171.00, 62.00, NULL, 0, 0, 0, 0, 0, '66549db03a2e4-393036.jpg', 'aaa', NULL, NULL, NULL),
+(7, 16, 'Alvaro Rodríguez', 'ld', 23, '1994-07-22', 'España', 181.00, 77.00, NULL, 0, 0, 0, 0, 0, '66549e632d614-a3c600856b5879a86c3b6f72f34c7d2e.png', 'aaa', NULL, NULL, NULL),
+(8, 16, 'Mohamed Djetei', 'dfc', 2, '1994-08-18', 'Cameŕun', 185.00, 75.00, NULL, 0, 0, 0, 0, 0, '66549ef8795de-2f2357e85bea5a07b5a379ae774d620d.png', 'aaa', NULL, NULL, NULL),
+(9, 16, 'Kaiky', 'dfc', 15, '2004-01-11', 'Brasil', 181.00, 76.00, NULL, 0, 0, 0, 0, 0, '66549f546c711-5E6E0444-0F70-D4DF-7815BDB46230FC67.jpeg', 'aaa', NULL, NULL, NULL),
+(10, 16, 'Carlos Isaac', 'ld', 22, '1998-04-29', 'España', 184.00, 74.00, NULL, 0, 0, 0, 0, 0, '66549f9996408-437820.png', 'aaa', NULL, NULL, NULL),
+(11, 16, 'Cristian Glauder', 'dfc', 24, '1995-10-17', 'España', 183.00, 76.00, NULL, 0, 0, 0, 0, 0, '66549ff27d16b-p421012_t950_2023_1_002_000.jpg', 'aaa', NULL, NULL, NULL),
+(12, 16, 'Agus Medina', 'mc', 4, '1994-09-07', 'España', 176.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, 'aa', NULL, NULL, NULL),
+(13, 16, 'Rai Marchán', 'mc', 6, '1993-08-10', 'España', 181.00, 67.00, NULL, 0, 0, 0, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
+(14, 16, 'Manu Fuster', 'mco', 10, '1997-10-21', 'España', 169.00, 65.00, NULL, 0, 0, 0, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
+(15, 16, 'Lander Olaetxea', 'mc', 19, '1993-04-11', 'España', 179.00, 75.00, NULL, 0, 0, 0, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
+(16, 16, 'Juan Antonio Ros', 'mcd', 5, '1996-03-14', 'España', 188.00, 80.00, NULL, 0, 0, 0, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
+(17, 16, 'Riki', 'mc', 8, '1997-09-24', 'España', 175.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, 'aaa', NULL, NULL, NULL),
+(18, 16, 'Pacheco', 'mc', 18, '2002-01-02', 'España', 184.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, 'aa', NULL, NULL, NULL),
+(19, 16, 'Samuel Shashoua', 'ei', 20, '1999-05-12', 'Inglaterra', 176.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '00', NULL, NULL, NULL),
+(20, 16, 'Juanma García', 'ed', 7, '1993-02-19', 'España', 166.00, 64.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(21, 16, 'Fidel', 'ei', 11, '1989-10-26', 'España', 180.00, 74.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(22, 16, 'Escriche', 'dc', 16, '1998-03-23', 'España', 178.00, 75.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(23, 16, 'Higinio Marín', 'dc', 9, '1993-10-18', 'España', 184.00, 74.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(24, 16, 'Pedro Benito', 'dc', 14, '2000-03-26', 'España', 182.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(25, 16, 'Alberto Quiles', 'dc', 21, '1995-04-26', 'España', 188.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
 (26, 20, 'Dani Raba', 'ed', 10, '1995-10-29', 'España', 185.00, 76.00, NULL, 0, 0, 0, 0, 0, NULL, '00', NULL, NULL, NULL),
 (27, 5, 'Iker Losada', 'mco', 22, '2001-08-01', 'España', 175.00, 70.00, NULL, 1, 0, 1, 0, 0, NULL, '00', NULL, NULL, NULL),
 (28, 11, 'Ager Aketxe', 'mco', 10, '1993-12-30', 'España', 174.00, 69.00, NULL, 2, 0, 2, 0, 0, NULL, '0', NULL, NULL, NULL),
-(29, 8, 'Jordi Masip', 'por', 1, '1989-01-03', 'España', 180.00, 76.00, NULL, 1, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL);
+(29, 8, 'Jordi Masip', 'por', 1, '1989-01-03', 'España', 180.00, 76.00, NULL, 1, 0, 1, 0, 0, NULL, '0', NULL, NULL, NULL),
+(30, 20, 'Dani Jiménez', 'por', 1, '1990-03-04', 'España', 179.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(31, 20, 'Diego Conde', 'por', 13, '1998-10-27', 'España', 188.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(32, 20, 'Allan Nyom', 'ld', 2, '1988-05-09', 'Camerún', 188.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(33, 20, 'Diyaeddine Abzi', 'li', 4, '1998-11-22', 'Canadá', 185.00, 75.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(34, 20, 'Sergio González', 'dfc', 6, '1992-04-19', 'España', 188.00, 81.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(35, 20, 'Jorge Miramón', 'ld', 21, '1989-06-01', 'España', 175.00, 74.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(36, 20, 'Jorge Sáenz', 'dfc', 3, '1996-11-16', 'España', 192.00, 75.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(37, 20, 'Borja López', 'dfc', 5, '1994-02-01', 'España', 192.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(38, 20, 'Enric Franquesa', 'li', 15, '1997-02-25', 'España', 174.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(39, 20, 'Aritz Arambarri', 'dfc', 22, '1998-01-30', 'España', 186.00, 76.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(40, 20, 'Francisco Portillo', 'mco', 7, '1990-06-12', 'España', 169.00, 60.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(41, 20, 'Juan Cruz', 'ed', 11, '2000-04-24', 'España', 177.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(42, 20, 'Yvan Neyou', 'mcd', 17, '1997-01-02', 'Camerún', 180.00, 63.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(43, 20, 'Julián Chicco', 'mcd', 24, '1998-01-12', 'Argentina', 181.00, 79.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(44, 20, 'Hugo Solozobal', 'dfc', 41, '2003-02-06', 'España', 185.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(45, 20, 'Luis Perea', 'mc', 8, '1997-08-24', 'España', 192.00, 80.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(46, 20, 'Darko Brasanac', 'mc', 14, '1992-02-11', 'Serbia', 178.00, 73.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(47, 20, 'Iker Undabarrena', 'mcd', 20, '1995-05-17', 'España', 182.00, 76.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(48, 20, 'Seydouba Cissé', 'mc', 15, '2001-02-09', 'Guinea', 177.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(49, 20, 'Miguel de la Fuente', 'dc', 9, '1999-09-02', 'España', 180.00, 77.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(50, 20, 'Diego García', 'dc', 19, '2000-04-17', 'España', 186.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(51, 20, 'Näis Djouahra', 'ei', 23, '1999-11-22', 'Francia', 171.00, 67.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(52, 20, 'Sydney Osazuwa', 'dc', 29, '2007-04-20', 'España', 175.00, 65.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(53, 20, 'Oscar Ureña', 'ei', 28, '2003-05-30', 'República Dominicana', 180.00, 75.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(54, 8, 'Luis Pérez', 'ld', 2, '1995-02-03', 'España', 173.00, 68.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(55, 8, 'Javi Sánchez', 'dfc', 5, '1997-03-13', 'España', 186.00, 71.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(56, 8, 'Lucas Oliveira', 'dfc', 12, '1996-02-01', 'Brasil', 187.00, 82.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(57, 8, 'Lucas Rosa', 'ld', 22, '2000-04-02', 'Brasil', 176.00, 68.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(58, 8, 'David Torres', 'dfc', 3, '2003-03-04', 'España', 185.00, 72.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(59, 8, 'Enzo Boyomo', 'dfc', 6, '2001-10-06', 'Camerún', 180.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(60, 8, 'Sergio Escudero', 'li', 18, '1989-09-01', 'España', 176.00, 65.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(61, 8, 'Cesar Tárrega', 'dfc', 34, '2002-02-25', 'España', 194.00, 80.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(62, 8, 'Victor Meseguer', 'mc', 4, '1999-06-08', 'España', 184.00, 81.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(63, 8, 'Ivan Sánchez', 'mco', 10, '1992-09-22', 'España', 171.00, 64.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(64, 8, 'Stanko Juric', 'mcd', 20, '1996-08-15', 'Croacia', 189.00, 83.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(65, 8, 'Kenedy', 'ei', 24, '1996-02-07', 'Brasil', 182.00, 77.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(66, 8, 'Monchu', 'mc', 8, '1999-09-12', 'España', 173.00, 68.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(67, 8, 'Cesar de la Hoz', 'mc', 16, '1992-03-29', 'España', 179.00, 74.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(68, 8, 'Anuar Tuhami', 'mc', 23, '1995-01-14', 'Marruecos', 173.00, 69.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(69, 8, 'Mamadou Sylla', 'dc', 7, '1994-03-19', 'Senegal', 184.00, 84.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(70, 8, 'Marcos André', 'dc', 9, '1996-10-19', 'Brasil', 184.00, 78.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(71, 8, 'Raul Moro', 'ei', 11, '2002-12-04', 'España', 169.00, 60.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(72, 8, 'Stipe Biuk', 'ei', 17, '2002-12-25', 'Croacia', 170.00, 60.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(73, 8, 'Amath Ndiaye', 'ei', 19, '1996-07-15', 'Senegal', 173.00, 70.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL),
+(74, 8, 'Alvaro Negredo', 'dc', 21, '1985-08-19', 'España', 186.00, 71.00, NULL, 0, 0, 0, 0, 0, NULL, '0', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -387,13 +432,6 @@ CREATE TABLE `Resultados` (
   `fecha_partido` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Volcado de datos para la tabla `Resultados`
---
-
-INSERT INTO `Resultados` (`resultado_id`, `equipo_local_id`, `equipo_visitante_id`, `goles_local`, `goles_visitante`, `fecha_partido`) VALUES
-(8, 16, 2, 4, 5, NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -404,13 +442,6 @@ CREATE TABLE `Resultados_Jornadas` (
   `resultado_id` int(11) NOT NULL,
   `jornada_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
-
---
--- Volcado de datos para la tabla `Resultados_Jornadas`
---
-
-INSERT INTO `Resultados_Jornadas` (`resultado_id`, `jornada_id`) VALUES
-(8, 8);
 
 -- --------------------------------------------------------
 
@@ -573,7 +604,7 @@ ALTER TABLE `Clasificacion`
 -- AUTO_INCREMENT de la tabla `Comentarios`
 --
 ALTER TABLE `Comentarios`
-  MODIFY `comentario_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `comentario_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `Equipos`
@@ -615,7 +646,7 @@ ALTER TABLE `EventosPartido`
 -- AUTO_INCREMENT de la tabla `Jugadores`
 --
 ALTER TABLE `Jugadores`
-  MODIFY `jugador_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `jugador_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
 
 --
 -- AUTO_INCREMENT de la tabla `Noticias`
